@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   threejs,
-  // carrent,
+  carrent,
   // jobit,
   // tripguide,
   chishop,
@@ -199,6 +199,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    deploy_link: "https://car-showcase-five-rho.vercel.app/",
+    source_code_link: "https://github.com/chilunhay/car_showcase",
+  },
   {
     name: "Chi Shop App",
     description:
