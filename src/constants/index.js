@@ -25,6 +25,7 @@ import {
   // tripguide,
   chishop,
   tdcwatches,
+  chiblog,
 } from "../assets";
 
 export const navLinks = [
@@ -199,6 +200,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Chi Blog App",
+    description:
+      "Web application to introduce yourself and the projects have done and can post blog on the page, can change the theme light and dark. Login with email or google account.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "auth.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chiblog,
+    deploy_link: "https://chi-blog-app.vercel.app",
+    source_code_link: "https://github.com/chilunhay/Chi-Blog-App",
+  },
   {
     name: "Car Rent",
     description:
