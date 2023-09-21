@@ -28,11 +28,11 @@ import tesla from "./company/tesla.png";
 
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import tdcWatches from "./tdcWatches.png";
-import chiShop from "./chiShop.png";
-import carRent from "./carRent.png";
-import chiBlog from "./chiBlog.png";
-import chiRestaurant from "./chiRestaurant.png";
+import tdcwatches from "./tdcwatches.png";
+import chishop from "./chishop.png";
+import carrent from "./carrent.png";
+import chiblog from "./chiblog.png";
+import chirestaurant from "./chirestaurant.png";
 
 export {
   logo,
@@ -62,9 +62,9 @@ export {
   tesla,
   jobit,
   tripguide,
-  tdcWatches,
-  chiShop,
-  carRent,
-  chiBlog,
-  chiRestaurant,
+  tdcwatches,
+  chishop,
+  carrent,
+  chiblog,
+  chirestaurant,
 };
