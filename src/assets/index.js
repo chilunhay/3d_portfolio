@@ -32,7 +32,7 @@ import tdcWatches from "./tdcWatches.png";
 import chiShop from "./chiShop.png";
 import carRent from "./carRent.png";
 import chiBlog from "./chiBlog.png";
-import chiRestaurant from "chiRestaurant.png";
+import chiRestaurant from "./chiRestaurant.png";
 
 export {
   logo,
