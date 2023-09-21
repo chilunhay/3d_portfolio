@@ -220,7 +220,7 @@ const projects = [
       },
       {
         name: "postgreSQL",
-        color: "yellow-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: chirestaurant,
