@@ -26,12 +26,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import chishop from "./chishop.png";
-import tdcwatches from "./tdcwatches.png";
-import chiblog from "./chiblog.png";
+import tdcWatches from "./tdcWatches.png";
+import chiShop from "./chiShop.png";
+import carRent from "./carRent.png";
+import chiBlog from "./chiBlog.png";
+import chiRestaurant from "chiRestaurant.png";
 
 export {
   logo,
@@ -59,10 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
-  chishop,
-  tdcwatches,
-  chiblog,
+  tdcWatches,
+  chiShop,
+  carRent,
+  chiBlog,
+  chiRestaurant,
 };

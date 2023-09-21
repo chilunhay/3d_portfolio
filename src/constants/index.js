@@ -20,12 +20,13 @@ import {
   tesla,
   shopify,
   threejs,
-  carrent,
   // jobit,
   // tripguide,
-  chishop,
-  tdcwatches,
-  chiblog,
+  tdcWatches,
+  chiShop,
+  carRent,
+  chiBlog,
+  chiRestaurant,
 } from "../assets";
 
 export const navLinks = [
@@ -201,7 +202,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Chi Blog App",
+    name: "Chi Restaurant Website",
+    description:
+      "Website application that makes ordering fast food quick and convenient with google login with Auth.js library and quick payment with stripe payment.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "auth.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: chiRestaurant,
+    deploy_link: "https://chi-restaurant.vercel.app",
+    source_code_link: "https://github.com/chilunhay/chi-restaurant",
+  },
+  {
+    name: "Chi Blog Website",
     description:
       "Web application to introduce yourself and the projects have done and can post blog on the page, can change the theme light and dark. Login with email or google account.",
     tags: [
@@ -218,12 +245,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: chiblog,
+    image: chiBlog,
     deploy_link: "https://chi-blog-app.vercel.app",
     source_code_link: "https://github.com/chilunhay/Chi-Blog-App",
   },
   {
-    name: "Car Rent",
+    name: "Car Rent Website",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -240,12 +267,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: carRent,
     deploy_link: "https://car-showcase-five-rho.vercel.app/",
     source_code_link: "https://github.com/chilunhay/car_showcase",
   },
   {
-    name: "Chi Shop App",
+    name: "E-commerce Website Chi Shop",
     description:
       "Web application that enables users to search or filter for clothes or accessories, view product details, shopping online with stripe checkout",
     tags: [
@@ -262,12 +289,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: chishop,
+    image: chiShop,
     deploy_link: "https://chi-shop-frontend.onrender.com",
     source_code_link: "https://github.com/chilunhay/CHI-Shop-App",
   },
   {
-    name: "TDC Wacthes",
+    name: "E-commerce Website TDC Watches",
     description:
       "Web application that enables users to search or filter for wristlet watch, view product details, comment and shopping online with stripe checkout with new interface",
     tags: [
@@ -284,7 +311,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tdcwatches,
+    image: tdcWatches,
     deploy_link: "https://tdc-watches.onrender.com/",
     source_code_link: "https://github.com/chilunhay/TDC-Wacthes",
   },
