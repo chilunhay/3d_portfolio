@@ -27,6 +27,7 @@ import {
   carrent,
   chiblog,
   chirestaurant,
+  nike,
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +202,24 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Nike Landing Page",
+    description:
+      "The landing page of the Nike shopping website is coded with React + Tailwind CSS",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nike,
+    deploy_link: "https://nike-landing-page-kappa.vercel.app",
+    source_code_link: "https://github.com/chilunhay/nike-landing-page",
+  },
   {
     name: "Chi Restaurant Website",
     description:

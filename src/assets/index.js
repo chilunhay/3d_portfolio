@@ -33,6 +33,7 @@ import chishop from "./chishop.png";
 import carrent from "./carrent.png";
 import chiblog from "./chiblog.png";
 import chirestaurant from "./chirestaurant-min.png";
+import nike from "./nike.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   carrent,
   chiblog,
   chirestaurant,
+  nike,
 };
