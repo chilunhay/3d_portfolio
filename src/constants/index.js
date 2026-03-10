@@ -331,7 +331,7 @@ const projects = [
       },
     ],
     image: tdcwatches,
-    deploy_link: "https://tdc-watches.onrender.com/",
+    deploy_link: "https://tdc-wacthes.vercel.app/",
     source_code_link: "https://github.com/chilunhay/TDC-Wacthes",
   },
 ];
