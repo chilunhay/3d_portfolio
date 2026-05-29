@@ -331,8 +331,8 @@ const projects = [
       },
     ],
     image: tdcwatches,
-    deploy_link: "https://tdc-wacthes.vercel.app/",
-    source_code_link: "https://github.com/chilunhay/TDC-Wacthes",
+    deploy_link: "https://tdc-watches.vercel.app/",
+    source_code_link: "https://github.com/chilunhay/TDC-Watches",
   },
 ];
 
